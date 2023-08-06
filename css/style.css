@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Jones-light';
+    src:url('../fonts/Jones-Light.otf') format('OpenType Font');
+}
+
+@font-face {
+    font-family: 'Jones-medium';
+    src:url('../fonts/Jones-Medium.otf') format('OpenType Font');
+}
+
+@font-face {
+    font-family: 'Jones-bold';
+    src:url('../fonts/Jones-Bold.otf') format('OpenType Font');
+}
+
+:root{
+	--color-gris-claro:#cacaca;
+	--color-naranja:#df6329;
+	--color-dorado:#e9c59a;
+    --color-negro:#0a0301;
+}
+
+#CTA {
+	background-image: url("../img/extra-backrground.jpg");
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+}
+
+#CTA h2 {
+	font-size: 40px;
+	padding-bottom: 24px;
+	font-weight: 900px;
+	
+}
+
+#CTA .btn.btn-outline-dark {
+	font-size: 20px;
+	padding: 0 110px;
+	margin-bottom: 14px;
+	border-radius: 25px;
+}
+
+#CTA a{
+	text-decoration-color: var(--color-negro);
+	
+}
+
+.negro {
+	color: var(--color-negro);
+}
+
+.overlay {
+	padding: 8% 0 25%;
+}
+
+.mc-field-group input{
+	background-color: rgba(255,255,255,0.00)!important;
+	border-color: var(--color-negro)!important;
+	border-radius: 25px!important;
+	color:var(--color-negro) !important; 
+}
+
+::placeholder{
+	color: var(--color-negro) !important; 
+	text-align: center;
+}
+
+#mc_embed_signup .button {
+	text-decoration: underline var(--color-negro) solid !important;
+	background-color: rgba(255,255,255,0.00)!important;
+	color:var(--color-negro) !important; 
+	text-align: center !important; 
+	
+}
+
+.clear{
+	text-align: center !important;
+	
+	
+}
+footer {
+	font-size: 11px;
+	text-align: center;
+	background-color: var(--color-negro);
+	color: var(--color-gris-claro);
+	margin-bottom: 0px;
+	padding: 10px 0px;
+}
+
+footer p {
+	
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
